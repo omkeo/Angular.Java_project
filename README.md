@@ -12,7 +12,7 @@ sudo apt install mariadb-server
 sudo systemctl start mariadb
 sudo systemctl enable mariadb
 sudo mysql_secure_installation
-sudo mysql -u root -p
+sudo mysql -h <databseend point> -u username -p<password>
 ```
 ```sql
 CREATE DATABASE springbackend;
